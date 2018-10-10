@@ -1,0 +1,127 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Sensors:LSM90S1 U1
+U 1 1 5BBD7441
+P 5200 4100
+F 0 "U1" H 5250 4050 60  0001 C CNN
+F 1 "LSM90S1" H 5550 4891 60  0000 C CNN
+F 2 "MRDT_Sensors:IMU_LSM90S1" H 5250 4100 60  0001 C CNN
+F 3 "" H 5250 4100 60  0001 C CNN
+	1    5200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_08 Conn1
+U 1 1 5BBD7471
+P 5150 4900
+F 0 "Conn1" V 5040 5738 60  0000 L CNN
+F 1 "Molex_SL_08" V 5146 5738 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 5150 5200 60  0001 C CNN
+F 3 "" H 5150 5200 60  0001 C CNN
+	1    5150 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 3450 4800 3450
+Wire Wire Line
+	4800 3450 4800 3750
+Wire Wire Line
+	4800 4700 5200 4700
+Wire Wire Line
+	5000 3750 4800 3750
+Connection ~ 4800 3750
+Wire Wire Line
+	4800 3750 4800 3850
+Wire Wire Line
+	5000 3850 4800 3850
+Connection ~ 4800 3850
+Wire Wire Line
+	4800 3850 4800 3950
+Wire Wire Line
+	5200 4700 5200 4150
+Wire Wire Line
+	5200 4150 6250 4150
+Wire Wire Line
+	6250 4150 6250 3600
+Wire Wire Line
+	6250 3600 6100 3600
+Connection ~ 5200 4700
+Wire Wire Line
+	5000 4050 4800 4050
+Connection ~ 4800 4050
+Wire Wire Line
+	4800 4050 4800 4700
+Wire Wire Line
+	5000 3950 4800 3950
+Connection ~ 4800 3950
+Wire Wire Line
+	4800 3950 4800 4050
+Wire Wire Line
+	5000 3550 4850 3550
+Wire Wire Line
+	4850 3550 4850 4500
+Wire Wire Line
+	4850 4500 5300 4500
+Wire Wire Line
+	5300 4500 5300 4700
+Wire Wire Line
+	5000 3650 4900 3650
+Wire Wire Line
+	4900 3650 4900 4450
+Wire Wire Line
+	4900 4450 5400 4450
+Wire Wire Line
+	5400 4450 5400 4700
+Wire Wire Line
+	6100 4000 6100 4450
+Wire Wire Line
+	6100 4450 5500 4450
+Wire Wire Line
+	5500 4450 5500 4700
+Wire Wire Line
+	6100 3900 6150 3900
+Wire Wire Line
+	6150 3900 6150 4500
+Wire Wire Line
+	6150 4500 5600 4500
+Wire Wire Line
+	5600 4500 5600 4700
+Wire Wire Line
+	6100 3800 6200 3800
+Wire Wire Line
+	6200 3800 6200 4550
+Wire Wire Line
+	6200 4550 5700 4550
+Wire Wire Line
+	5700 4550 5700 4700
+Wire Wire Line
+	6100 3700 6300 3700
+Wire Wire Line
+	6300 3700 6300 4600
+Wire Wire Line
+	6300 4600 5800 4600
+Wire Wire Line
+	5800 4600 5800 4700
+Wire Wire Line
+	6100 3500 6350 3500
+Wire Wire Line
+	6350 3500 6350 4650
+Wire Wire Line
+	6350 4650 5900 4650
+Wire Wire Line
+	5900 4650 5900 4700
+$EndSCHEMATC
