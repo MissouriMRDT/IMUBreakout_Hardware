@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:round_2-cache
+LIBS:IMUBreakout_Hardware-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -108,8 +108,8 @@ $Comp
 L Device:R R1
 U 1 1 5BCD10FD
 P 3200 3550
-F 0 "R1" V 2993 3550 50  0000 C CNN
-F 1 "0" V 3084 3550 50  0000 C CNN
+F 0 "R1" V 3100 3550 50  0000 C CNN
+F 1 "0" V 3200 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3130 3550 50  0001 C CNN
 F 3 "~" H 3200 3550 50  0001 C CNN
 	1    3200 3550
@@ -119,8 +119,8 @@ $Comp
 L Device:R R3
 U 1 1 5BCD1148
 P 4700 3550
-F 0 "R3" V 4493 3550 50  0000 C CNN
-F 1 "0" V 4584 3550 50  0000 C CNN
+F 0 "R3" V 4600 3550 50  0000 C CNN
+F 1 "0" V 4700 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4630 3550 50  0001 C CNN
 F 3 "~" H 4700 3550 50  0001 C CNN
 	1    4700 3550
@@ -144,60 +144,4 @@ Text GLabel 4000 2700 0    50   Input ~ 0
 SDOM
 Text GLabel 5100 3550 2    50   Output ~ 0
 SDOM
-$Comp
-L Device:D D1
-U 1 1 5BCD208E
-P 6050 4400
-F 0 "D1" V 6096 4321 50  0000 R CNN
-F 1 "D" V 6005 4321 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6050 4400 50  0001 C CNN
-F 3 "~" H 6050 4400 50  0001 C CNN
-	1    6050 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D2
-U 1 1 5BCD20ED
-P 6350 4400
-F 0 "D2" V 6396 4321 50  0000 R CNN
-F 1 "D" V 6305 4321 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 4400 50  0001 C CNN
-F 3 "~" H 6350 4400 50  0001 C CNN
-	1    6350 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5BCD212A
-P 6050 4050
-F 0 "R5" H 6120 4096 50  0000 L CNN
-F 1 "500" H 6120 4005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5980 4050 50  0001 C CNN
-F 3 "~" H 6050 4050 50  0001 C CNN
-	1    6050 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 5BCD215C
-P 6350 4050
-F 0 "R6" H 6420 4096 50  0000 L CNN
-F 1 "500" H 6420 4005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 4050 50  0001 C CNN
-F 3 "~" H 6350 4050 50  0001 C CNN
-	1    6350 4050
-	1    0    0    -1  
-$EndComp
-Text GLabel 6050 4550 3    50   UnSpc ~ 0
-GND
-Text GLabel 6350 4550 3    50   UnSpc ~ 0
-GND
-Wire Wire Line
-	6050 4200 6050 4250
-Wire Wire Line
-	6350 4200 6350 4250
-Text GLabel 6350 3900 1    50   Input ~ 0
-+3V3
-Text GLabel 6050 3900 1    50   Input ~ 0
-SDA
 $EndSCHEMATC
