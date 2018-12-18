@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Sensors:LSM90S1 U1
+L MRDT_Sensors:LSM90S1_Sparkfun U1
 U 1 1 5BBD7441
 P 4200 2950
 F 0 "U1" H 4250 2900 60  0001 C CNN
 F 1 "LSM90S1" H 4550 3741 60  0000 C CNN
-F 2 "MRDT_Sensors:IMU_LSM90S1" H 4250 2950 60  0001 C CNN
+F 2 "Packages:LSM9DS1_Sparkfun" H 4250 2950 60  0001 C CNN
 F 3 "" H 4250 2950 60  0001 C CNN
 	1    4200 2950
 	1    0    0    -1  
@@ -144,4 +144,72 @@ Text GLabel 4000 2700 0    50   Input ~ 0
 SDOM
 Text GLabel 5100 3550 2    50   Output ~ 0
 SDOM
+Text GLabel 6100 3700 1    50   Input ~ 0
++3V3
+Text GLabel 6350 3700 1    50   Input ~ 0
+SDA
+$Comp
+L Device:R R5
+U 1 1 5C1F858E
+P 6100 3900
+F 0 "R5" H 6170 3946 50  0000 L CNN
+F 1 "500" H 6170 3855 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6030 3900 50  0001 C CNN
+F 3 "~" H 6100 3900 50  0001 C CNN
+	1    6100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5C1F85C0
+P 6350 3900
+F 0 "R6" H 6420 3946 50  0000 L CNN
+F 1 "500" H 6420 3855 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6280 3900 50  0001 C CNN
+F 3 "~" H 6350 3900 50  0001 C CNN
+	1    6350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5C1F86BA
+P 6350 4250
+F 0 "D2" V 6388 4133 50  0000 R CNN
+F 1 "LED" V 6297 4133 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 4250 50  0001 C CNN
+F 3 "~" H 6350 4250 50  0001 C CNN
+	1    6350 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5C1F874D
+P 6100 4250
+F 0 "D1" V 6138 4133 50  0000 R CNN
+F 1 "LED" V 6047 4133 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6100 4250 50  0001 C CNN
+F 3 "~" H 6100 4250 50  0001 C CNN
+	1    6100 4250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6100 4450 3    50   UnSpc ~ 0
+GND
+Text GLabel 6350 4450 3    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	6350 4400 6350 4450
+Wire Wire Line
+	6100 4400 6100 4450
+Wire Wire Line
+	6100 4050 6100 4100
+Wire Wire Line
+	6350 4050 6350 4100
+Wire Wire Line
+	6350 3700 6350 3750
+Wire Wire Line
+	6100 3700 6100 3750
+Text Notes 6050 4750 0    50   ~ 0
+Grn
+Text Notes 6300 4750 0    50   ~ 0
+Ylw
 $EndSCHEMATC

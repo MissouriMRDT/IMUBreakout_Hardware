@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Packages)(type KiCad)(uri C:/Users/andre/Documents/Rover/GitHub/Hardware/IMUBreakout_Hardware/Libraries/Packages.pretty)(options "")(descr ""))
+)
