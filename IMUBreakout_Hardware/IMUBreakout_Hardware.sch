@@ -14,134 +14,137 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MRDT_Sensors:LSM90S1 U1
-U 1 1 5BBD7441
-P 4200 2950
-F 0 "U1" H 4250 2900 60  0001 C CNN
-F 1 "LSM90S1" H 4550 3741 60  0000 C CNN
-F 2 "MRDT_Sensors:IMU_LSM90S1" H 4250 2950 60  0001 C CNN
-F 3 "" H 4250 2950 60  0001 C CNN
-	1    4200 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_08 Conn1
-U 1 1 5BBD7471
-P 6350 3100
-F 0 "Conn1" V 6240 3938 60  0000 L CNN
-F 1 "Molex_SL_08" V 6346 3938 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 6350 3400 60  0001 C CNN
-F 3 "" H 6350 3400 60  0001 C CNN
-	1    6350 3100
-	1    0    0    -1  
-$EndComp
-Text GLabel 4000 2300 0    50   Input ~ 0
+Text GLabel 3002 1206 0    50   Input ~ 0
 +3V3
-Text GLabel 5100 2350 2    50   UnSpc ~ 0
+Text GLabel 4150 1198 0    50   Input ~ 0
++3V3
+Text GLabel 3402 1506 3    50   UnSpc ~ 0
 GND
-Text GLabel 4000 2800 0    50   Input ~ 0
-+3V3
-Text GLabel 5100 2450 2    50   Input ~ 0
-+3V3
-Text GLabel 6150 3050 0    50   Input ~ 0
-+3V3
-Text GLabel 4000 2900 0    50   Input ~ 0
-+3V3
-Text GLabel 6150 2350 0    50   UnSpc ~ 0
-GND
-Text GLabel 6150 2450 0    50   Input ~ 0
-INT2AG
-Text GLabel 6150 2550 0    50   Input ~ 0
-INT1AG
-Text GLabel 6150 2650 0    50   Input ~ 0
-INTM
-Text GLabel 6150 2750 0    50   Input ~ 0
-DRDYM
-Text GLabel 6150 2850 0    50   Input ~ 0
-SDA
-Text GLabel 6150 2950 0    50   Input ~ 0
-SCL
-Text GLabel 4000 2500 0    50   Output ~ 0
-SDA
-Text GLabel 4000 2400 0    50   Output ~ 0
-SCL
-Text GLabel 5100 2550 2    50   Output ~ 0
-INT2AG
-Text GLabel 5100 2650 2    50   Output ~ 0
-INT1AG
-Text GLabel 5100 2750 2    50   Output ~ 0
-INTM
-Text GLabel 5100 2850 2    50   Output ~ 0
-DRDYM
-Text GLabel 3050 3550 0    50   Input ~ 0
-+3V3
-Text GLabel 4550 3550 0    50   Input ~ 0
-+3V3
-Text GLabel 3450 3850 3    50   UnSpc ~ 0
-GND
-Text GLabel 5000 3850 3    50   UnSpc ~ 0
+Text GLabel 4600 1498 3    50   UnSpc ~ 0
 GND
 $Comp
 L Device:R R2
 U 1 1 5BCD1016
-P 3450 3700
-F 0 "R2" H 3520 3746 50  0000 L CNN
-F 1 "1K" H 3520 3655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3380 3700 50  0001 C CNN
-F 3 "~" H 3450 3700 50  0001 C CNN
-	1    3450 3700
+P 3402 1356
+F 0 "R2" H 3472 1402 50  0000 L CNN
+F 1 "500" V 3402 1306 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3332 1356 50  0001 C CNN
+F 3 "~" H 3402 1356 50  0001 C CNN
+	1    3402 1356
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 5BCD1060
-P 5000 3700
-F 0 "R4" H 5070 3746 50  0000 L CNN
-F 1 "1K" H 5070 3655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4930 3700 50  0001 C CNN
-F 3 "~" H 5000 3700 50  0001 C CNN
-	1    5000 3700
+P 4600 1348
+F 0 "R4" H 4670 1394 50  0000 L CNN
+F 1 "500" V 4600 1298 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4530 1348 50  0001 C CNN
+F 3 "~" H 4600 1348 50  0001 C CNN
+	1    4600 1348
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5BCD10FD
-P 3200 3550
-F 0 "R1" V 3100 3550 50  0000 C CNN
-F 1 "0" V 3200 3550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3130 3550 50  0001 C CNN
-F 3 "~" H 3200 3550 50  0001 C CNN
-	1    3200 3550
+P 3152 1206
+F 0 "R1" V 3052 1206 50  0000 C CNN
+F 1 "500" V 3152 1206 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3082 1206 50  0001 C CNN
+F 3 "~" H 3152 1206 50  0001 C CNN
+	1    3152 1206
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5BCD1148
-P 4700 3550
-F 0 "R3" V 4600 3550 50  0000 C CNN
-F 1 "0" V 4700 3550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4630 3550 50  0001 C CNN
-F 3 "~" H 4700 3550 50  0001 C CNN
-	1    4700 3550
+P 4300 1198
+F 0 "R3" V 4200 1198 50  0000 C CNN
+F 1 "500" V 4300 1198 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4230 1198 50  0001 C CNN
+F 3 "~" H 4300 1198 50  0001 C CNN
+	1    4300 1198
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3350 3550 3450 3550
+	3302 1206 3402 1206
 Wire Wire Line
-	4850 3550 5000 3550
-Connection ~ 5000 3550
+	4450 1198 4600 1198
+Connection ~ 4600 1198
 Wire Wire Line
-	5000 3550 5100 3550
-Connection ~ 3450 3550
+	4600 1198 4700 1198
+Connection ~ 3402 1206
 Wire Wire Line
-	3450 3550 3600 3550
-Text GLabel 3600 3550 2    50   Output ~ 0
-SDOAG
-Text GLabel 4000 2600 0    50   Input ~ 0
-SDOAG
-Text GLabel 4000 2700 0    50   Input ~ 0
-SDOM
-Text GLabel 5100 3550 2    50   Output ~ 0
-SDOM
+	3402 1206 3552 1206
+Text GLabel 3552 1206 2    50   Output ~ 0
+TX
+Text GLabel 4700 1198 2    50   Output ~ 0
+RX
+$Comp
+L MRDT_Connectors:Molex_SL_04 Conn1
+U 1 1 5C71B502
+P 6450 1766
+F 0 "Conn1" H 6577 2024 60  0000 L CNN
+F 1 "Molex_SL_04" H 6577 1918 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 6450 1766 60  0001 C CNN
+F 3 "" H 6450 1766 60  0001 C CNN
+	1    6450 1766
+	1    0    0    -1  
+$EndComp
+Text GLabel 6250 1416 0    50   Input ~ 0
++3V3
+Text GLabel 6250 1516 0    50   Input ~ 0
+TX
+Text GLabel 6250 1616 0    50   Input ~ 0
+RX
+Text GLabel 6250 1716 0    50   Input ~ 0
+GND
+$Comp
+L IMUBreakout_lib:Breakout #U01
+U 1 1 5C71CBEF
+P 1048 1951
+F 0 "#U01" H 1279 2676 50  0000 C CNN
+F 1 "Breakout" H 1279 2585 50  0000 C CNN
+F 2 "" H 1048 1901 50  0001 C CNN
+F 3 "" H 1048 1901 50  0001 C CNN
+	1    1048 1951
+	1    0    0    -1  
+$EndComp
+Text GLabel 1448 1451 2    50   Input ~ 0
++3V3
+Text GLabel 1448 1551 2    50   Input ~ 0
+TX
+Text GLabel 1448 1651 2    50   Input ~ 0
+RX
+Text GLabel 1448 1751 2    50   Input ~ 0
+GND
+$Comp
+L MRDT_Connectors:Molex_SL_08 Conn2
+U 1 1 5C71D3C0
+P 7858 2010
+F 0 "Conn2" H 7985 2468 60  0000 L CNN
+F 1 "Molex_SL_08" H 7985 2362 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 7858 2310 60  0001 C CNN
+F 3 "" H 7858 2310 60  0001 C CNN
+	1    7858 2010
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	472  2362 2362 2362
+Wire Notes Line
+	2362 2362 2362 393 
+Wire Notes Line
+	2361 2361 5345 2361
+Wire Notes Line
+	5345 2361 5345 473 
+Wire Notes Line
+	5345 2360 9278 2360
+Wire Notes Line
+	9278 2360 9278 472 
+Text Notes 900  850  0    118  ~ 24
+IMU Breakout\n
+Text Notes 2900 800  0    118  ~ 24
+Resistors and LEDs
+Text Notes 6550 800  0    118  ~ 24
+Connections
 $EndSCHEMATC
