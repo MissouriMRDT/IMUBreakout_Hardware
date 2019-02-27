@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name IMUBreakout_lib)(type Legacy)(uri C:/Users/poped/Documents/GitHub/IMUBreakout_Hardware/IMUBreakout_Hardware/IMUBreakout_lib.lib)(options "")(descr ""))
+  (lib (name IMUBreakout_Hardware-rescue)(type Legacy)(uri ${KIPRJMOD}/IMUBreakout_Hardware-rescue.lib)(options "")(descr ""))
 )

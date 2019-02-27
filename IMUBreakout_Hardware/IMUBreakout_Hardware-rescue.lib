@@ -1,0 +1,56 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Breakout-IMUBreakout_lib
+#
+DEF Breakout-IMUBreakout_lib U 0 40 Y Y 1 F P
+F0 "U" 0 -50 50 H V C CNN
+F1 "Breakout-IMUBreakout_lib" -50 -50 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+DRAW
+S 300 550 50 150 0 1 0 N
+X +3V3 1 400 500 100 L 50 50 1 1 I
+X Tx 2 400 400 100 L 50 50 1 1 I
+X Rx 3 400 300 100 L 50 50 1 1 I
+X GND 4 400 200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Molex_SL_04-MRDT_Connectors
+#
+DEF Molex_SL_04-MRDT_Connectors Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 -50 60 H V C CNN
+F1 "Molex_SL_04-MRDT_Connectors" 50 450 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 0 400 100 0 0 1 0 N
+X ~ 1 -200 350 200 R 50 50 1 1 I
+X ~ 2 -200 250 200 R 50 50 1 1 I
+X ~ 3 -200 150 200 R 50 50 1 1 I
+X ~ 4 -200 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Molex_SL_08-MRDT_Connectors
+#
+DEF Molex_SL_08-MRDT_Connectors Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 -50 60 H V C CNN
+F1 "Molex_SL_08-MRDT_Connectors" 50 850 60 H V C CNN
+F2 "" 0 300 60 H I C CNN
+F3 "" 0 300 60 H I C CNN
+DRAW
+S 0 800 100 0 0 1 0 N
+X ~ 1 -200 750 200 R 50 50 1 1 I
+X ~ 2 -200 650 200 R 50 50 1 1 I
+X ~ 3 -200 550 200 R 50 50 1 1 I
+X ~ 4 -200 450 200 R 50 50 1 1 I
+X ~ 5 -200 350 200 R 50 50 1 1 I
+X ~ 6 -200 250 200 R 50 50 1 1 I
+X ~ 7 -200 150 200 R 50 50 1 1 I
+X ~ 8 -200 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

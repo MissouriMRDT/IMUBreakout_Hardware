@@ -1,0 +1,7 @@
+---Schematic---
+I'm not sure what the resistors R1, R2, R3, R4 are for. They would force the Tx, Rx lines to 1.5V, and we dont really want that, so iw ould remove them
+We do want an LED and a series resistor going from Rx to GND and from Tx to GND. 
+I'm not too fussed by it here, but in the future it would have been cleaner to make a schematic symbol and layout for the Sparkfun IMU itself. That was everything stays together and you dont run the risk of having your pads in the wrong place. We will have to make sure that they are placed properly in the final design. 
+
+---Layout---
+Ummm, I thing you misunderstood what we're going for here. We need two rows of headers for the Sparkfun IMU to mount on, and an SL carrying 3.3V, GND, Tx, and Rx to the four pins on the one side of the breakout. We just need a few rows of headers to mount the IMU onto. 
