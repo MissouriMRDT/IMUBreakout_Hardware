@@ -14,137 +14,116 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 3002 1206 0    50   Input ~ 0
-+3V3
-Text GLabel 4150 1198 0    50   Input ~ 0
-+3V3
-Text GLabel 3402 1506 3    50   UnSpc ~ 0
-GND
-Text GLabel 4600 1498 3    50   UnSpc ~ 0
-GND
-$Comp
-L Device:R R2
-U 1 1 5BCD1016
-P 3402 1356
-F 0 "R2" H 3472 1402 50  0000 L CNN
-F 1 "500" V 3402 1306 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3332 1356 50  0001 C CNN
-F 3 "~" H 3402 1356 50  0001 C CNN
-	1    3402 1356
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5BCD1060
-P 4600 1348
-F 0 "R4" H 4670 1394 50  0000 L CNN
-F 1 "500" V 4600 1298 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4530 1348 50  0001 C CNN
-F 3 "~" H 4600 1348 50  0001 C CNN
-	1    4600 1348
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5BCD10FD
-P 3152 1206
-F 0 "R1" V 3052 1206 50  0000 C CNN
-F 1 "500" V 3152 1206 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3082 1206 50  0001 C CNN
-F 3 "~" H 3152 1206 50  0001 C CNN
-	1    3152 1206
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5BCD1148
-P 4300 1198
-F 0 "R3" V 4200 1198 50  0000 C CNN
-F 1 "500" V 4300 1198 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4230 1198 50  0001 C CNN
-F 3 "~" H 4300 1198 50  0001 C CNN
-	1    4300 1198
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3302 1206 3402 1206
-Wire Wire Line
-	4450 1198 4600 1198
-Connection ~ 4600 1198
-Wire Wire Line
-	4600 1198 4700 1198
-Connection ~ 3402 1206
-Wire Wire Line
-	3402 1206 3552 1206
-Text GLabel 3552 1206 2    50   Output ~ 0
-TX
-Text GLabel 4700 1198 2    50   Output ~ 0
-RX
 $Comp
 L MRDT_Connectors:Molex_SL_04 Conn1
 U 1 1 5C71B502
-P 6450 1766
-F 0 "Conn1" H 6577 2024 60  0000 L CNN
-F 1 "Molex_SL_04" H 6577 1918 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 6450 1766 60  0001 C CNN
-F 3 "" H 6450 1766 60  0001 C CNN
-	1    6450 1766
+P 3530 1646
+F 0 "Conn1" H 3657 1904 60  0000 L CNN
+F 1 "Molex_SL_04" H 3657 1798 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Vertical" H 3530 1646 60  0001 C CNN
+F 3 "" H 3530 1646 60  0001 C CNN
+	1    3530 1646
 	1    0    0    -1  
 $EndComp
-Text GLabel 6250 1416 0    50   Input ~ 0
+Text GLabel 4790 1230 0    50   Input ~ 0
 +3V3
-Text GLabel 6250 1516 0    50   Input ~ 0
+Text GLabel 4790 1430 0    50   Input ~ 0
 TX
-Text GLabel 6250 1616 0    50   Input ~ 0
+Text GLabel 4790 1330 0    50   Input ~ 0
 RX
-Text GLabel 6250 1716 0    50   Input ~ 0
-GND
-$Comp
-L IMUBreakout_lib:Breakout #U01
-U 1 1 5C71CBEF
-P 1048 1951
-F 0 "#U01" H 1279 2676 50  0000 C CNN
-F 1 "Breakout" H 1279 2585 50  0000 C CNN
-F 2 "" H 1048 1901 50  0001 C CNN
-F 3 "" H 1048 1901 50  0001 C CNN
-	1    1048 1951
-	1    0    0    -1  
-$EndComp
-Text GLabel 1448 1451 2    50   Input ~ 0
-+3V3
-Text GLabel 1448 1551 2    50   Input ~ 0
-TX
-Text GLabel 1448 1651 2    50   Input ~ 0
-RX
-Text GLabel 1448 1751 2    50   Input ~ 0
+Wire Notes Line
+	3025 2361 3025 473 
+Wire Notes Line
+	6338 2360 6338 472 
+Text Notes 575  700  0    118  ~ 24
+Resistors and LEDs
+Text Notes 3630 680  0    118  ~ 24
+Connections
+Text GLabel 4790 1130 0    50   Input ~ 0
 GND
 $Comp
 L MRDT_Connectors:Molex_SL_08 Conn2
-U 1 1 5C71D3C0
-P 7858 2010
-F 0 "Conn2" H 7985 2468 60  0000 L CNN
-F 1 "Molex_SL_08" H 7985 2362 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 7858 2310 60  0001 C CNN
-F 3 "" H 7858 2310 60  0001 C CNN
-	1    7858 2010
+U 1 1 5C774553
+P 5030 1880
+F 0 "Conn2" H 5157 2338 60  0000 L CNN
+F 1 "Molex_SL_08" H 5157 2232 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_08_Vertical" H 5030 2180 60  0001 C CNN
+F 3 "" H 5030 2180 60  0001 C CNN
+	1    5030 1880
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4830 1130 4790 1130
+Wire Wire Line
+	4830 1230 4790 1230
+Wire Wire Line
+	4830 1330 4790 1330
+Wire Wire Line
+	4830 1430 4790 1430
+$Comp
+L Device:R R2
+U 1 1 5C77498F
+P 1290 1110
+F 0 "R2" V 1200 1110 50  0000 C CNN
+F 1 "500" V 1290 1120 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1220 1110 50  0001 C CNN
+F 3 "~" H 1290 1110 50  0001 C CNN
+	1    1290 1110
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1140 1110 1020 1110
+$Comp
+L Device:LED D2
+U 1 1 5C774CC2
+P 1710 1110
+F 0 "D2" H 1701 1326 50  0000 C CNN
+F 1 "LED" H 1701 1235 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1710 1110 50  0001 C CNN
+F 3 "~" H 1710 1110 50  0001 C CNN
+	1    1710 1110
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1440 1110 1560 1110
+Wire Wire Line
+	1860 1110 1940 1110
+Text GLabel 1020 1110 0    50   Input ~ 0
+TX
+Text GLabel 1940 1110 2    50   Output ~ 0
+GND
+$Comp
+L Device:R R1
+U 1 1 5C7758F1
+P 1260 1520
+F 0 "R1" V 1170 1520 50  0000 C CNN
+F 1 "500" V 1260 1530 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1190 1520 50  0001 C CNN
+F 3 "~" H 1260 1520 50  0001 C CNN
+	1    1260 1520
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1110 1520 990  1520
+$Comp
+L Device:LED D1
+U 1 1 5C7758F9
+P 1680 1520
+F 0 "D1" H 1671 1736 50  0000 C CNN
+F 1 "LED" H 1671 1645 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1680 1520 50  0001 C CNN
+F 3 "~" H 1680 1520 50  0001 C CNN
+	1    1680 1520
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1410 1520 1530 1520
+Wire Wire Line
+	1830 1520 1910 1520
+Text GLabel 990  1520 0    50   Input ~ 0
+RX
+Text GLabel 1910 1520 2    50   Output ~ 0
+GND
 Wire Notes Line
-	472  2362 2362 2362
-Wire Notes Line
-	2362 2362 2362 393 
-Wire Notes Line
-	2361 2361 5345 2361
-Wire Notes Line
-	5345 2361 5345 473 
-Wire Notes Line
-	5345 2360 9278 2360
-Wire Notes Line
-	9278 2360 9278 472 
-Text Notes 900  850  0    118  ~ 24
-IMU Breakout\n
-Text Notes 2900 800  0    118  ~ 24
-Resistors and LEDs
-Text Notes 6550 800  0    118  ~ 24
-Connections
+	6340 2360 470  2360
 $EndSCHEMATC
