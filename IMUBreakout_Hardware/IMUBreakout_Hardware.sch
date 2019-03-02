@@ -14,11 +14,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4950 1200 0    50   Input ~ 0
-+3V3
 Text GLabel 4950 1400 0    50   Input ~ 0
++3V3
+Text GLabel 4950 1200 0    50   Input ~ 0
 TX
-Text GLabel 4950 1300 0    50   Input ~ 0
+Text GLabel 4950 1100 0    50   Input ~ 0
 RX
 Wire Notes Line
 	3025 2361 3025 473 
@@ -105,7 +105,7 @@ F 3 "" H 5200 1450 60  0001 C CNN
 	1    5200 1450
 	1    0    0    -1  
 $EndComp
-Text GLabel 4950 1100 0    50   Input ~ 0
+Text GLabel 4950 1300 0    50   Input ~ 0
 GND
 Wire Wire Line
 	4950 1100 5000 1100
