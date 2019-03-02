@@ -14,22 +14,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MRDT_Connectors:Molex_SL_04 Conn1
-U 1 1 5C71B502
-P 3530 1646
-F 0 "Conn1" H 3657 1904 60  0000 L CNN
-F 1 "Molex_SL_04" H 3657 1798 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Vertical" H 3530 1646 60  0001 C CNN
-F 3 "" H 3530 1646 60  0001 C CNN
-	1    3530 1646
-	1    0    0    -1  
-$EndComp
-Text GLabel 4790 1230 0    50   Input ~ 0
+Text GLabel 4950 1200 0    50   Input ~ 0
 +3V3
-Text GLabel 4790 1430 0    50   Input ~ 0
+Text GLabel 4950 1400 0    50   Input ~ 0
 TX
-Text GLabel 4790 1330 0    50   Input ~ 0
+Text GLabel 4950 1300 0    50   Input ~ 0
 RX
 Wire Notes Line
 	3025 2361 3025 473 
@@ -39,27 +28,6 @@ Text Notes 575  700  0    118  ~ 24
 Resistors and LEDs
 Text Notes 3630 680  0    118  ~ 24
 Connections
-Text GLabel 4790 1130 0    50   Input ~ 0
-GND
-$Comp
-L MRDT_Connectors:Molex_SL_08 Conn2
-U 1 1 5C774553
-P 5030 1880
-F 0 "Conn2" H 5157 2338 60  0000 L CNN
-F 1 "Molex_SL_08" H 5157 2232 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_08_Vertical" H 5030 2180 60  0001 C CNN
-F 3 "" H 5030 2180 60  0001 C CNN
-	1    5030 1880
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4830 1130 4790 1130
-Wire Wire Line
-	4830 1230 4790 1230
-Wire Wire Line
-	4830 1330 4790 1330
-Wire Wire Line
-	4830 1430 4790 1430
 $Comp
 L Device:R R2
 U 1 1 5C77498F
@@ -126,4 +94,62 @@ Text GLabel 1910 1520 2    50   Output ~ 0
 GND
 Wire Notes Line
 	6340 2360 470  2360
+$Comp
+L MRDT_Connectors:Molex_SL_04 Conn?
+U 1 1 5C7ACAF9
+P 5200 1450
+F 0 "Conn?" H 5327 1708 60  0000 L CNN
+F 1 "Molex_SL_04" H 5327 1602 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 5200 1450 60  0001 C CNN
+F 3 "" H 5200 1450 60  0001 C CNN
+	1    5200 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4950 1100 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4950 1100 5000 1100
+Wire Wire Line
+	5000 1200 4950 1200
+Wire Wire Line
+	5000 1300 4950 1300
+Wire Wire Line
+	5000 1400 4950 1400
+$Comp
+L MRDT_Sensors:Razor_9DOF_Sparkfun U?
+U 1 1 5C7ACFCA
+P 3600 2000
+F 0 "U?" H 3800 2965 50  0000 C CNN
+F 1 "Razor_9DOF_Sparkfun" H 3800 2874 50  0000 C CNN
+F 2 "MRDT_Sensors:Razor_9DOF_Sparkfun" H 3350 2250 50  0001 C CNN
+F 3 "" H 3350 2250 50  0001 C CNN
+	1    3600 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 1500 0    50   Input ~ 0
++3V3
+Text GLabel 3400 1700 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3500 1450 3500 1500
+Wire Wire Line
+	3400 1500 3500 1500
+Connection ~ 3500 1500
+Wire Wire Line
+	3500 1500 3500 1550
+Wire Wire Line
+	3500 1650 3500 1700
+Wire Wire Line
+	3400 1700 3500 1700
+Connection ~ 3500 1700
+Wire Wire Line
+	3500 1700 3500 1750
+Text GLabel 4150 1450 2    50   Input ~ 0
+RX
+Text GLabel 4150 1550 2    50   Input ~ 0
+TX
+Wire Wire Line
+	4100 1450 4150 1450
+Wire Wire Line
+	4100 1550 4150 1550
 $EndSCHEMATC
