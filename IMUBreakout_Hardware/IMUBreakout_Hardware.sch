@@ -95,10 +95,10 @@ GND
 Wire Notes Line
 	6340 2360 470  2360
 $Comp
-L MRDT_Connectors:Molex_SL_04 Conn?
+L MRDT_Connectors:Molex_SL_04 Conn1
 U 1 1 5C7ACAF9
 P 5200 1450
-F 0 "Conn?" H 5327 1708 60  0000 L CNN
+F 0 "Conn1" H 5327 1708 60  0000 L CNN
 F 1 "Molex_SL_04" H 5327 1602 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 5200 1450 60  0001 C CNN
 F 3 "" H 5200 1450 60  0001 C CNN
@@ -116,10 +116,10 @@ Wire Wire Line
 Wire Wire Line
 	5000 1400 4950 1400
 $Comp
-L MRDT_Sensors:Razor_9DOF_Sparkfun U?
+L MRDT_Sensors:Razor_9DOF_Sparkfun U1
 U 1 1 5C7ACFCA
 P 3600 2000
-F 0 "U?" H 3800 2965 50  0000 C CNN
+F 0 "U1" H 3800 2965 50  0000 C CNN
 F 1 "Razor_9DOF_Sparkfun" H 3800 2874 50  0000 C CNN
 F 2 "MRDT_Sensors:Razor_9DOF_Sparkfun" H 3350 2250 50  0001 C CNN
 F 3 "" H 3350 2250 50  0001 C CNN
