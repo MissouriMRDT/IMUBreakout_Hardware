@@ -152,4 +152,36 @@ Wire Wire Line
 	4100 1450 4150 1450
 Wire Wire Line
 	4100 1550 4150 1550
+Text GLabel 990  1965 0    50   Input ~ 0
++3V3
+$Comp
+L Device:R R?
+U 1 1 5C7EE240
+P 1260 1965
+F 0 "R?" V 1170 1965 50  0000 C CNN
+F 1 "500" V 1260 1975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1190 1965 50  0001 C CNN
+F 3 "~" H 1260 1965 50  0001 C CNN
+	1    1260 1965
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1110 1965 990  1965
+$Comp
+L Device:LED D?
+U 1 1 5C7EE248
+P 1680 1965
+F 0 "D?" H 1671 2181 50  0000 C CNN
+F 1 "LED" H 1671 2090 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1680 1965 50  0001 C CNN
+F 3 "~" H 1680 1965 50  0001 C CNN
+	1    1680 1965
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1410 1965 1530 1965
+Wire Wire Line
+	1830 1965 1910 1965
+Text GLabel 1910 1965 2    50   Output ~ 0
+GND
 $EndSCHEMATC
