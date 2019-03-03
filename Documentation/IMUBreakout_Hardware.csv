@@ -1,5 +1,5 @@
-Id,Designator,Package,,Designation,Item Name,Part Number,,,Vendor,Quantity,Cost per item,,URL,
-1,Conn1,MOLEX_SL_04_Horizontal,,Molex_SL_04, CONN HEADER 4POS .100 R/A GOLD,WM4902-ND,,,Digikey,1,1.16,,https://www.digikey.com/products/en?keywords=WM4902-ND,
-2,"D1,D2",LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,LED,LED YELLOW CLEAR SMD,160-1448-1-ND,,,Digikey,2,0.31,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KSKT/160-1448-1-ND/386838,
-3,"R1,R2",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,500,RES SMD 510 OHM 5% 1/4W 0603,RHM510DCT-ND,,,Digikey,2,0.1,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ511/RHM510DCT-ND/1762937,
-4,U1,Razor_9DOF_Sparkfun,,Razor_9DOF_Sparkfun,SparkFun 9DoF Razor IMU M0,Sen-14001,,,Sparkfun,1,35.95,,https://www.sparkfun.com/products/14001,
+Id,Designator,Package,,Designation,Item Name,Part Number,,,Vendor,Quantity,Cost per item,,URL
+1,Conn1,MOLEX_SL_04_Horizontal,,Molex_SL_04, CONN HEADER 4POS .100 R/A GOLD,WM4902-ND,,,Digikey,1,1.16,,https://www.digikey.com/products/en?keywords=WM4902-ND
+2,"D1,D2,D3",LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,LED,LED YELLOW CLEAR SMD,160-1448-1-ND,,,Digikey,3,0.31,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KSKT/160-1448-1-ND/386838
+3,"R1,R2,R3",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,500,RES SMD 510 OHM 5% 1/4W 0603,RHM510DCT-ND,,,Digikey,3,0.1,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ511/RHM510DCT-ND/1762937
+4,U1,Razor_9DOF_Sparkfun,,Razor_9DOF_Sparkfun,SparkFun 9DoF Razor IMU M0,Sen-14001,,,Sparkfun,1,35.95,,https://www.sparkfun.com/products/14001
