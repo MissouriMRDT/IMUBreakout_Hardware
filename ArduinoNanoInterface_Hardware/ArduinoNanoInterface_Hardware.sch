@@ -142,7 +142,7 @@ U 1 1 5CB6C45E
 P 7500 2200
 F 0 "JP2" V 7454 2301 50  0000 L CNN
 F 1 "Jumper_NC_Dual" V 7300 1500 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" H 7500 2200 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7500 2200 50  0001 C CNN
 F 3 "~" H 7500 2200 50  0001 C CNN
 	1    7500 2200
 	0    1    1    0   
@@ -327,7 +327,7 @@ U 1 1 5CB703F8
 P 7500 1400
 F 0 "JP1" V 7454 1501 50  0000 L CNN
 F 1 "Jumper_NC_Dual" V 7300 700 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" H 7500 1400 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7500 1400 50  0001 C CNN
 F 3 "~" H 7500 1400 50  0001 C CNN
 	1    7500 1400
 	0    1    1    0   
@@ -350,9 +350,9 @@ Wire Wire Line
 	5350 3400 5400 3400
 Wire Wire Line
 	5350 3500 5400 3500
-Text GLabel 7550 1700 2    50   Output ~ 0
-HW_Rx
 Text GLabel 7550 1100 2    50   Output ~ 0
+HW_Rx
+Text GLabel 7550 1700 2    50   Output ~ 0
 SW_Rx
 Text GLabel 7550 1900 2    50   Input ~ 0
 HW_Tx
