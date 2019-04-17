@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\andre\OneDrive\Documents\Rover\GitHub\Hardware\IMUBreakout_Hardware\LSM9DS1Breakout_Hardware\LSM9DS1Breakout_Hardware.sch)
-    (date "4/17/2019 12:29:24 AM")
+    (date "4/17/2019 12:32:10 AM")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
