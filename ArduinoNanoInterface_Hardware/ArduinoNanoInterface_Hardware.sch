@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ArduinoNanoInterface_Hardware-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -57,9 +58,9 @@ F 3 "~" H 3200 3900 50  0001 C CNN
 	1    3200 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 3150 4200 0    50   Input ~ 0
+Text GLabel 3750 4200 2    50   Input ~ 0
 NanoTx
-Text GLabel 3750 4200 2    50   Output ~ 0
+Text GLabel 3150 4200 0    50   Output ~ 0
 Tx
 Wire Wire Line
 	3750 4200 3700 4200
@@ -374,8 +375,6 @@ Wire Wire Line
 	7550 2500 7500 2500
 Wire Wire Line
 	7500 2450 7500 2500
-Text Notes 10000 4500 0    50   ~ 0
-Green
 $Comp
 L Device:LED D3
 U 1 1 5CB750E1
@@ -452,9 +451,9 @@ F 3 "~" H 3200 4950 50  0001 C CNN
 	1    3200 4950
 	1    0    0    -1  
 $EndComp
-Text GLabel 3150 5250 0    50   Input ~ 0
-NanoRx
 Text GLabel 3750 5250 2    50   Output ~ 0
+NanoRx
+Text GLabel 3150 5250 0    50   Input ~ 0
 Rx
 Wire Wire Line
 	3750 5250 3700 5250
